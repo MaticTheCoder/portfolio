@@ -2,14 +2,14 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome,faUser,faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faHome,faUser,faEnvelope, faChessKing } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
     <div className="nav-bar">
         <Link to="/">
             <div className="logo">
-                <p>This will be the sidebar</p>
+                <FontAwesomeIcon icon ={faChessKing} color="rgb(182, 127, 255)" ></FontAwesomeIcon>
             </div>
         </Link>
         <nav>
@@ -42,17 +42,7 @@ const Sidebar = () => (
                 </a>
             </li>
 
-            <li>
-                <a 
-                target="_blank"
-                rel="noreferrer"
-                href='https://github.com/MaticTheCoder'>
-                    <FontAwesomeIcon icon={faGithub} color="4d4d4e"/>
-                </a>
-            </li>
-
-            
-            
+    
         </ul>
     </div>
 );
