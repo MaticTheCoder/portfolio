@@ -52,9 +52,9 @@ const About = () => {
                         <FontAwesomeIcon icon={faGitAlt} color="#EC4D28"/>
                     </div>
                 </div>
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                    <div class="stars3"></div>
+                    <div className="stars"></div>
+                    <div className="stars2"></div>
+                    <div className="stars3"></div>
             </div>
         </div>
     )
