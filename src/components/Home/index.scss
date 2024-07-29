@@ -50,20 +50,20 @@ h2 {
 }
 
 .flat-button {
-    color: rgb(138, 45, 182);
+    color: #181829;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid rgb(138, 45, 182);
+    border: 1px solid #181829;
     float: left;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
-        background: rgb(171, 66, 219);
+        background: #6565B5;
         color: white;
     }
 }

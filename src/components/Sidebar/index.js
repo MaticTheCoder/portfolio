@@ -9,7 +9,7 @@ const Sidebar = () => (
     <div className="nav-bar">
         <Link to="/">
             <div className="logo">
-                <FontAwesomeIcon icon ={faChessKing} color="rgb(182, 127, 255)" ></FontAwesomeIcon>
+                <FontAwesomeIcon icon ={faChessKing} color="#9B9BE6" ></FontAwesomeIcon>
             </div>
         </Link>
         <nav>
@@ -29,7 +29,7 @@ const Sidebar = () => (
                 target="_blank"
                 rel="noreferrer"
                 href='https://www.linkedin.com/in/matic-koren-83a30a240/'>
-                    <FontAwesomeIcon icon={faLinkedin} color="4d4d4e"/>
+                    <FontAwesomeIcon icon={faLinkedin} color="#9B9BE6"/>
                 </a>
             </li>
 
@@ -38,7 +38,7 @@ const Sidebar = () => (
                 target="_blank"
                 rel="noreferrer"
                 href='https://github.com/MaticTheCoder'>
-                    <FontAwesomeIcon icon={faGithub} color="4d4d4e"/>
+                    <FontAwesomeIcon icon={faGithub} color="#9B9BE6"/>
                 </a>
             </li>
 
